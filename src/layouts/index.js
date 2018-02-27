@@ -6,7 +6,7 @@ import Header from '../components/Header'
 import Footer from '../components/Footer'
 import './index.css'
 
-import '../../public/fonts/chrystal/stylesheet.css'
+import '../../public/fonts/chrystal/chrystal.css'
 import '../../public/fonts/devicons/devicons.css'
 import '../../public/fonts/fontawesome/font-awesome.css'
 
@@ -14,24 +14,15 @@ import '../../public/fonts/fontawesome/font-awesome.css'
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet
-      title="Gatsby Default Starter"
+      title="chrystal"
       meta={[
-        { name: 'description', content: 'Sample' },
-        { name: 'keywords', content: 'sample, something' },
+        { name: 'description', content: 'the home of chrystal griffiths' }
       ]}
     />
     <Header/>
-    <div
-      style={{
-        margin: '0 auto',
-        maxWidth: 960,
-        padding: '0px 1.0875rem 1.45rem',
-        paddingTop: 0,
-      }}
-    >
+    <div>
       {children()}
     </div>
-    {/* <Footer/> */}
   </div>
 )
 
