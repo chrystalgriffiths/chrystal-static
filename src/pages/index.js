@@ -9,8 +9,8 @@ const IndexPage = () => (
           <p>Chrystal is a Javascript Engineer from the Midlands living in London.</p>
           <p>As well as Javascript, Ruby and Erlang; she likes pretty, vintage skirts; walking and foam bananas.</p>
         </div>
-        <a className="social-icon" href="http://github.com/chrystalgriffiths"><span className="devicons devicons-github_badge"></span></a>
-        <a className="social-icon" href="http://twitter.com/chrystaldev"><i className="fa fa-twitter"></i></a>
+        <a className="social-icon" href="http://github.com/chrystalgriffiths"><i className="devicon devicon-github-original"></i></a>
+        <a className="social-icon" href="http://twitter.com/chrystaldev"><i className="devicon devicon-twitter-original"></i></a>
     </div>
   </div>
 )
