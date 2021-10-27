@@ -5,10 +5,10 @@ import Helmet from 'react-helmet'
 import Header from '../components/Header'
 import './index.css'
 
-import '../../public/fonts/chrystal/chrystal.css'
 import '../../public/fonts/devicons/devicons.css'
 import '../../public/fonts/fontawesome/font-awesome.css'
 
+import '../fonts/chrystal/stylesheet.css'
 
 const TemplateWrapper = ({ children }) => (
   <div>
